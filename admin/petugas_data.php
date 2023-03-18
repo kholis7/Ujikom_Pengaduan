@@ -59,6 +59,7 @@ include "header.php";
                           <label class="col-sm-4 col-form-label">Nama Petugas</label>
                           <div class="col-sm-8">
                               <input type="text" name="nama" class="form-control" value="<?php echo $petugas['nama_petugas']; ?>" placeholder="Masukan Nama Petugas">
+                              <input type="hidden" name="id_petugas" class="form-control" value="<?php echo $petugas['id_petugas']; ?>" placeholder="Masukan Nama Petugas">
                           </div>
                       </div>
                       <div class="form-group row">
@@ -82,7 +83,7 @@ include "header.php";
                   </div>
                   <div class="modal-footer">
                       <button class="btn btn-sm btn-danger" type="button" data-dismiss="modal">Cancel</button>
-                      <input type="submit" class="btn btn-success btn-sm" value="Tambah">
+                      <input type="submit" class="btn btn-success btn-sm" value="Update">
                   </div>
                   </form>
                 </div>
